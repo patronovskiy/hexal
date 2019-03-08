@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Hexal</title>
-	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet">
 </head>
 <body>
 	<header class="page-header">
@@ -11,25 +11,24 @@
 			<ul>
 				<li><a href="#" class="page-header__nav-link">Portfolio</a></li>
 				<li><a href="#" class="page-header__nav-link">About</a></li>
-				<li><h1>Hexal</h1></li>
 				<li><a href="#" class="page-header__nav-link">Blog</a></li>
 				<li><a href="#" class="page-header__nav-link">Get in touch</a></li>
 			</ul>
 		</nav>
 	</header>
 
-	<main>
+	<main class="page-content">
 		<section class="slider">
-
+			<h2 class="slider__heading_visually-hidden">Portfolio</h2>
 		</section>
 
 		<section class="info-about-author">
 			<figure class="info-about-author__biography-block">
 				<img src="img/author.jpg" alt="Smith Anderson photo" width="100" height="100">
 				<figcaption>
-					<h2>Smith Anderson</h2>
-					<h3>Illustrator & Charachter Designer</h3>
-					<p></p>
+					<h1>Smith Anderson</h1>
+					<h2>Illustrator & Charachter Designer</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
 				</figcaption>
 			</figure>
 			<nav class="info-about-author__social-buttons">
@@ -49,7 +48,7 @@
 	<footer class="page-footer">
 		<form class="contact-form">
 			<h2>Get in touch</h2>
-			<legend>In order to get in touch use the contact form below:</legend>
+			<span>In order to get in touch use the contact form below:</span>
 			<input class="contact-form__user-name" type="text" placeholder="Name (Required)" required>
 			<input class="contact-form__user-email" type="email" placeholder="Email (Required)" required>
 			<input class="contact-form__message-subject" type="text" placeholder="Subject">
@@ -57,14 +56,16 @@
 			<button class="contact-form__submit-button" value="Send"></button>
 		</form>
 		<section class="contacts-block">
-			<p class="contacts-block__text"></p>
+			<h2 class="contacts-block__heading_visually-hidden">Contacts</h2>
+			<p class="contacts-block__text"><strong>Quisque Hendrerit:</strong> purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae. </p>
 			<ul class="contacts-block__contacts-list">
-				<li><a href="#" class="contact-link"></a></li>
-				<li><a href="#" class="contact-link"></a></li>
-				<li><a href="#" class="contact-link"></a></li>
+				<li><a href="#" class="contacts-block__contact-link_address">Elm St. 14/05 Lost City</a></li>
+				<li><a href="#" class="contacts-block__contact-link_phone">+ 3528 331 86 35</a></li>
+				<li><a href="#" class="contacts-block__contact-link_email">info@hexalcorp.com</a></li>
 			</ul>
 		</section>
-		<span class="page-footer__copyright-link"></span>
+		<span class="page-footer__copyright-link">© Copyright 2013 by <a href="#">PSDchat</a></span>
 	</footer>
+
 </body>
 </html>
