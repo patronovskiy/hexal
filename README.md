@@ -8,7 +8,7 @@
 3. Header.
     - [ ] Interactive nav (интерактивное меню).
     - [ ] Think of where h1 should be used (подумать, где использовать заголовок 1 уровня)
-    - [ ] Header triangle should bepositioned on center (заголовок в хедере должен располагаться в центре)
+    - [ ] Header triangle should bepositioned on center (треугольник в хедере должен располагаться в центре)
 
 4. Main.
 
