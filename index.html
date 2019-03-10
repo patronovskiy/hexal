@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Hexal</title>
@@ -7,12 +8,14 @@
 </head>
 
 <body>
-	<header class="page-header">	
+	<header class="page-header">
 		<nav class="page-header__main-nav">
 			<ul class="page-header__main-nav-list">
 				<li><a href="#" class="page-header__main-nav-link_active-link">Portfolio</a></li>
 				<li><a href="#" class="page-header__main-nav-link">About</a></li>
-				<li><h1><a href="#"><img class="page-header__logo" alt="Smith Anderson" src="assets/img/logo.png"></a></h1></li>
+				<li>
+					<h1><a href="#"><img class="page-header__logo" alt="Smith Anderson" src="assets/img/logo.png"></a></h1>
+				</li>
 				<li><a href="#" class="page-header__main-nav-link">Blog</a></li>
 				<li><a href="#" class="page-header__main-nav-link">Get in touch</a></li>
 			</ul>
@@ -21,7 +24,227 @@
 
 	<main class="page-content">
 		<section class="slider">
-			<h2 class="slider__heading_visually-hidden">Portfolio</h2>
+			<h2 class="heading_visually-hidden">Portfolio</h2>
+			<div class="slider__wrapper">
+				<input class="slider__radio-control_hidden" type="radio" name="slider__radio-control" id="radio-control1">
+				<input class="slider__radio-control_hidden" type="radio" name="slider__radio-control" id="radio-control2">
+				<input class="slider__radio-control_hidden" type="radio" name="slider__radio-control" id="radio-control3" checked>
+				<input class="slider__radio-control_hidden" type="radio" name="slider__radio-control" id="radio-control4">
+				<input class="slider__radio-control_hidden" type="radio" name="slider__radio-control" id="radio-control5">
+				<input class="slider__radio-control_hidden" type="radio" name="slider__radio-control" id="radio-control6">
+
+
+				<div class="slider__slides-container">
+					<section class="slide slide1">
+						<h3 class="heading_visually-hidden">Monster Characthers in hexagons</h3>
+						<img class="slide__image" src="assets/img/slide1_1.png" width="182" height="206" alt="Red Monster Charachter.">
+					</section>
+
+					<section class="slide slide2">
+						<h3 class="heading_visually-hidden">3 Monster Characthers in hexagons</h3>
+						<div class="slide__row slide2__row">
+							<svg class="slide2__img1" width="180" height="206" viewBox="0 0 180 206" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monster-charachter in hexagon">
+								<defs>
+									<pattern id="img5_2" patternUnits="userSpaceOnUse" width="180" height="206">
+										<image xlink:href="assets/img/slide1_5.png" x="-1" y="-1" width="182" height="209" />
+									</pattern>
+								</defs>
+								<polygon points="90 0 180 51.5 180 154.5 90 206 0 154.5 0 51.5" fill="url(#img5_2)" />
+							</svg>
+
+							<svg class="slide2__img2" width="180" height="206" viewBox="0 0 180 206" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monster-charachter in hexagon">
+								<defs>
+									<pattern id="img6_2" patternUnits="userSpaceOnUse" width="180" height="206">
+										<image xlink:href="assets/img/slide1_6.png" x="-1" y="-1" width="182" height="209" />
+									</pattern>
+								</defs>
+								<polygon points="90 0 180 51.5 180 154.5 90 206 0 154.5 0 51.5" fill="url(#img6_2)" />
+							</svg>
+
+							<svg class="slide2__img3" width="180" height="206" viewBox="0 0 180 206" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monster-charachter in hexagon">
+								<defs>
+									<pattern id="img7_2" patternUnits="userSpaceOnUse" width="180" height="206">
+										<image xlink:href="assets/img/slide1_7.png" x="-1" y="-1" width="182" height="209" />
+									</pattern>
+								</defs>
+								<polygon points="90 0 180 51.5 180 154.5 90 206 0 154.5 0 51.5" fill="url(#img7_2)" />
+							</svg>
+						</div>
+					</section>
+
+					<section class="slide slide3">
+						<h3 class="heading_visually-hidden">13 Monster Characthers in hexagons</h3>
+						<div class="slide__img-rows-container">
+							<div class="slide__row slide__row1">
+								<svg class="slide__img1" width="180" height="206" viewBox="0 0 180 206" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monster-charachter in hexagon">
+									<defs>
+										<pattern id="img1" patternUnits="userSpaceOnUse" width="180" height="206">
+											<image xlink:href="assets/img/slide1_1.png" x="-1" y="-1" width="182" height="209" />
+										</pattern>
+									</defs>
+									<polygon points="90 0 180 51.5 180 154.5 90 206 0 154.5 0 51.5" fill="url(#img1)" />
+								</svg>
+
+								<svg class="slide__img2" width="180" height="206" viewBox="0 0 180 206" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monster-charachter in hexagon">
+									<defs>
+										<pattern id="img2" patternUnits="userSpaceOnUse" width="180" height="206">
+											<image xlink:href="assets/img/slide1_2.png" x="-1" y="-1" width="182" height="209" />
+										</pattern>
+									</defs>
+									<polygon points="90 0 180 51.5 180 154.5 90 206 0 154.5 0 51.5" fill="url(#img2)" />
+								</svg>
+
+								<svg class="slide__img3" width="180" height="206" viewBox="0 0 180 206" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monster-charachter in hexagon">
+									<defs>
+										<pattern id="img3" patternUnits="userSpaceOnUse" width="180" height="206">
+											<image xlink:href="assets/img/slide1_3.png" x="-1" y="-1" width="182" height="209" />
+										</pattern>
+									</defs>
+									<polygon points="90 0 180 51.5 180 154.5 90 206 0 154.5 0 51.5" fill="url(#img3)" />
+								</svg>
+
+								<svg class="slide__img4" width="180" height="206" viewBox="0 0 180 206" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monster-charachter in hexagon">
+									<defs>
+										<pattern id="img4" patternUnits="userSpaceOnUse" width="180" height="206">
+											<image xlink:href="assets/img/slide1_4.png" x="-20" y="-18" width="221" height="221" />
+										</pattern>
+									</defs>
+									<polygon points="90 0 180 51.5 180 154.5 90 206 0 154.5 0 51.5" fill="#323232" />
+									<polygon points="90 0 180 51.5 180 154.5 90 206 0 154.5 0 51.5" fill="url(#img4)" />
+								</svg>
+							</div>
+
+							<div class="slide__row slide__row2">
+								<svg class="slide__img5" width="180" height="206" viewBox="0 0 180 206" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monster-charachter in hexagon">
+									<defs>
+										<pattern id="img5" patternUnits="userSpaceOnUse" width="180" height="206">
+											<image xlink:href="assets/img/slide1_5.png" x="-1" y="-1" width="182" height="209" />
+										</pattern>
+									</defs>
+									<polygon points="90 0 180 51.5 180 154.5 90 206 0 154.5 0 51.5" fill="url(#img5)" />
+								</svg>
+
+								<svg class="slide__img6" width="180" height="206" viewBox="0 0 180 206" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monster-charachter in hexagon">
+									<defs>
+										<pattern id="img6" patternUnits="userSpaceOnUse" width="180" height="206">
+											<image xlink:href="assets/img/slide1_6.png" x="-1" y="-1" width="182" height="209" />
+										</pattern>
+									</defs>
+									<polygon points="90 0 180 51.5 180 154.5 90 206 0 154.5 0 51.5" fill="url(#img6)" />
+								</svg>
+
+								<svg class="slide__img7" width="180" height="206" viewBox="0 0 180 206" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monster-charachter in hexagon">
+									<defs>
+										<pattern id="img7" patternUnits="userSpaceOnUse" width="180" height="206">
+											<image xlink:href="assets/img/slide1_7.png" x="-1" y="-1" width="182" height="209" />
+										</pattern>
+									</defs>
+									<polygon points="90 0 180 51.5 180 154.5 90 206 0 154.5 0 51.5" fill="url(#img7)" />
+								</svg>
+
+								<svg class="slide__img8" width="180" height="206" viewBox="0 0 180 206" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monster-charachter in hexagon">
+									<defs>
+										<pattern id="img8" patternUnits="userSpaceOnUse" width="180" height="206">
+											<image xlink:href="assets/img/slide1_8.png" x="-1" y="-1" width="182" height="209" />
+										</pattern>
+									</defs>
+									<polygon points="90 0 180 51.5 180 154.5 90 206 0 154.5 0 51.5" fill="url(#img8)" />
+								</svg>
+
+								<svg class="slide__img9" width="180" height="206" viewBox="0 0 180 206" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monster-charachter in hexagon">
+									<defs>
+										<pattern id="img9" patternUnits="userSpaceOnUse" width="180" height="206">
+											<image xlink:href="assets/img/slide1_9.png" x="-1" y="-1" width="182" height="209" />
+										</pattern>
+									</defs>
+									<polygon points="90 0 180 51.5 180 154.5 90 206 0 154.5 0 51.5" fill="url(#img9)" />
+								</svg>
+							</div>
+
+							<div class="slide__row slide__row3">
+								<svg class="slide__img10" width="180" height="206" viewBox="0 0 180 206" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monster-charachter in hexagon">
+									<defs>
+										<pattern id="img10" patternUnits="userSpaceOnUse" width="180" height="206">
+											<image xlink:href="assets/img/slide1_10.png" x="-1" y="-1" width="182" height="209" />
+										</pattern>
+									</defs>
+									<polygon points="90 0 180 51.5 180 154.5 90 206 0 154.5 0 51.5" fill="url(#img10)" />
+								</svg>
+
+								<svg class="slide__img11" width="180" height="206" viewBox="0 0 180 206" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monster-charachter in hexagon">
+									<defs>
+										<pattern id="img11" patternUnits="userSpaceOnUse" width="180" height="206">
+											<image xlink:href="assets/img/slide1_11.png" x="-1" y="-1" width="182" height="209" />
+										</pattern>
+									</defs>
+									<polygon points="90 0 180 51.5 180 154.5 90 206 0 154.5 0 51.5" fill="url(#img11)" />
+								</svg>
+
+								<svg class="slide__img12" width="180" height="206" viewBox="0 0 180 206" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monster-charachter in hexagon">
+									<defs>
+										<pattern id="img12" patternUnits="userSpaceOnUse" width="180" height="206">
+											<image xlink:href="assets/img/slide1_12.png" x="-1" y="-1" width="182" height="209" />
+										</pattern>
+									</defs>
+									<polygon points="90 0 180 51.5 180 154.5 90 206 0 154.5 0 51.5" fill="url(#img12)" />
+								</svg>
+
+								<svg class="slide__img13" width="180" height="206" viewBox="0 0 180 206" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Monster-charachter in hexagon">
+									<defs>
+										<pattern id="img13" patternUnits="userSpaceOnUse" width="180" height="206">
+											<image xlink:href="assets/img/slide1_13.png" x="-1" y="-1" width="182" height="209" />
+										</pattern>
+									</defs>
+									<polygon points="90 0 180 51.5 180 154.5 90 206 0 154.5 0 51.5" fill="url(#img13)" />
+								</svg>
+							</div>
+						</div>
+					</section>
+
+					<section class="slide slide4">
+						<h3 class="heading_visually-hidden">Monster Characthers in hexagons</h3>
+						<img class="slide__image" src="assets/img/slide1_8.png" width="182" height="206" alt="Two Monster Charachters in ice water.">
+					</section>
+
+					<section class="slide slide5">
+						<h3 class="heading_visually-hidden">Monster Characthers in hexagons</h3>
+						<img class="slide__image" src="assets/img/slide1_4.png" width="221" height="221" alt="Red Monsters attack poor white Monster.">
+					</section>
+
+					<section class="slide slide6">
+						<h3 class="heading_visually-hidden">Monster Characthers in hexagons</h3>
+						<img class="slide__image" src="assets/img/slide1_10.png" width="182" height="206" alt="Blue Sea Monster Charachter (looks like meduse).">
+					</section>
+
+				</div>
+
+				<div class="slider__slider-controls">
+					<label class="slider__radio-control_visible" for="radio-control1">
+						<span class="label_visually-hidden">Slide 1</span>
+					</label>
+
+					<label class="slider__radio-control_visible" for="radio-control2">
+						<span class="label_visually-hidden">Slide 2</span>
+					</label>
+
+					<label class="slider__radio-control_visible" for="radio-control3">
+						<span class="label_visually-hidden">Slide 3</span>
+					</label>
+
+					<label class="slider__radio-control_visible" for="radio-control4">
+						<span class="label_visually-hidden">Slide 4</span>
+					</label>
+
+					<label class="slider__radio-control_visible" for="radio-control5">
+						<span class="label_visually-hidden">Slide 5</span>
+					</label>
+
+					<label class="slider__radio-control_visible" for="radio-control6">
+						<span class="label_visually-hidden">Slide 6</span>
+					</label>
+
+				</div>
+			</div>
 		</section>
 
 		<section class="info-about-author">
@@ -30,7 +253,8 @@
 				<figcaption>
 					<h2>Smith Anderson</h2>
 					<h3>Illustrator & Charachter Designer</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac
+						dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
 				</figcaption>
 			</figure>
 			<nav class="info-about-author__social-buttons">
@@ -70,4 +294,5 @@
 	</footer>
 
 </body>
+
 </html>
