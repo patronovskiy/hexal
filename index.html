@@ -279,17 +279,18 @@
 	</main>
 
 	<footer class="page-footer">
-		<form class="contact-form">
-			<h2>Get in touch</h2>
+		<div class="footer-wrapper">
+		<form class="contact-form" method="POST" action="#">
+			<h2>Get in Touch</h2>
 			<span>In order to get in touch use the contact form below:</span>
 			<input class="contact-form__user-name" type="text" placeholder="Name (Required)" required>
 			<input class="contact-form__user-email" type="email" placeholder="Email (Required)" required>
 			<input class="contact-form__message-subject" type="text" placeholder="Subject">
-			<textarea class="contact-form__message">Write your message here...</textarea>
-			<button class="contact-form__submit-button" value="Send"></button>
+			<textarea class="contact-form__message" placeholder="Write your message here..." rows="10"></textarea>
+			<button class="contact-form__submit-button" type="submit">Send</button>
 		</form>
 		<section class="contacts-block">
-			<h2 class="contacts-block__heading_visually-hidden">Contacts</h2>
+			<h2 class="heading_visually-hidden">Contacts</h2>
 			<p class="contacts-block__text"><strong>Quisque Hendrerit:</strong> purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae. </p>
 			<ul class="contacts-block__contacts-list">
 				<li><a href="#" class="contacts-block__contact-link_address">Elm St. 14/05 Lost City</a></li>
@@ -297,7 +298,10 @@
 				<li><a href="#" class="contacts-block__contact-link_email">info@hexalcorp.com</a></li>
 			</ul>
 		</section>
-		<span class="page-footer__copyright-link">© Copyright 2013 by <a href="#">PSDchat</a></span>
+		</div>
+		<div class="page-footer__copyright-link">
+			<span>© Copyright 2013 by <a href="#">PSDchat</a></span>
+		</div>
 	</footer>
 
 </body>
