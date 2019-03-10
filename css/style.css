@@ -5,6 +5,7 @@ connecting styles
 3. header
 4. page-content (main element)
 5. slider
+6. info-about-author
 */
 
 /*1.connecting styles*/
@@ -493,4 +494,219 @@ input[type="radio"].visually-hidden {
 
 .slider__radio-control_hidden:nth-child(6):checked ~ .slider__slider-controls .slider__radio-control_visible[for="radio-control6"] {
     background-color: #8b8784;
+}
+
+/* 6. info-about-author */
+
+.info-about-author {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 63px 120px 67px;
+
+    color: #ffffff;
+    background-color: #2eb398;
+}
+
+.info-about-author p,
+.info-about-author h2,
+.info-about-author h3 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.info-about-author h2 {
+    font-family: "Maven Pro", Arial, sans-serif;
+    font-size: 1.875em;
+    font-weight: 400;
+
+    color: #d7fcf5;
+}
+
+.info-about-author h3 {
+    font-family: "Maven Pro", Arial, sans-serif;
+    font-size: 1.125em;
+    font-weight: 400;
+
+    margin-top: -1px;
+    margin-left: 1px;
+
+    color: #20816d;
+}
+
+.info-about-author p {
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 0.75em;
+    font-weight: 400;
+    line-height: 1.375rem;
+
+    margin-top: 12px;
+    margin-bottom: 30px;
+    margin-left: 2px;
+
+    color: #d7fcf5;
+}
+
+.info-about-author__biography-block {
+    display: flex;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.info-about-author__author-photo {
+    margin-top: 5px;
+    margin-right: 18px;
+
+    flex-shrink: 0;
+}
+
+
+.info-about-author__biography-block figcaption {
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.info-about-author__social-links {
+    display: flex;
+
+    margin-top: -24px;
+}
+
+.info-about-author__social-links ul {
+    display: flex;
+
+    margin: 0;
+    margin-left: auto;
+    padding: 0;
+
+    list-style: none;
+}
+
+.info-about-author__social-links a {
+    position: relative;
+
+    display: block;
+
+    background-color: #11b09b;
+
+    filter: grayscale(100%) invert(100%) opacity(70%);
+}
+
+.info-about-author__social-links a:hover,
+.info-about-author__social-links a:focus {
+	filter: none;
+}
+
+.info-about-author__social-links a:hover::before,
+.info-about-author__social-links a:focus::before,
+.info-about-author__social-links a:hover::after,
+.info-about-author__social-links a:focus::after {
+	display: none;
+}
+
+.info-about-author__social-links a:active {
+	opacity: 0.4;
+}
+
+.info-about-author__social-link_fb {
+    width: 25px;
+    height: 24px;
+
+    background-image: url("../assets/img/sprite_social_links.png");
+    background-position: -0 -0;
+}
+
+.info-about-author__social-link_tw {
+    width: 24px;
+    height: 24px;
+
+    background-image: url("../assets/img/sprite_social_links.png");
+    background-position: -0 -72px;
+}
+
+.info-about-author__social-link_google {
+    width: 25px;
+    height: 24px;
+
+    background-image: url("../assets/img/sprite_social_links.png");
+    background-position: -0 -24px;
+}
+
+.info-about-author__social-link_pinterest {
+    width: 24px;
+    height: 24px;
+
+    background-image: url("../assets/img/sprite_social_links.png");
+    background-position: -0 -120px;
+}
+
+.info-about-author__social-link_linkedin {
+    width: 25px;
+    height: 24px;
+
+    background-image: url("../assets/img/sprite_social_links.png");
+    background-position: -0 -48px;
+}
+
+.info-about-author__social-link_drib {
+    width: 24px;
+    height: 24px;
+
+    background-image: url("../assets/img/sprite_social_links.png");
+    background-position: -0 -96px;
+}
+
+.info-about-author__social-links a::before {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    content: "";
+}
+
+.info-about-author__social-links a::after {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    content: "";
+
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.info-about-author::before {
+    position: absolute;
+    top: 4%;
+    left: 99px;
+
+    width: 1px;
+    height: 93%;
+
+    content: "";
+
+    background-color: #219d84;
+}
+
+.info-about-author::after {
+    position: absolute;
+    top: 4%;
+    right: 99px;
+
+    width: 1px;
+    height: 93%;
+
+    content: "";
+
+    background-color: #219d84;
 }
