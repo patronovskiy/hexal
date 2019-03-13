@@ -549,7 +549,6 @@ input[type="radio"].visually-hidden {
     margin-left: 2px;
 
     color: #d7fcf5;
-    /*letter-spacing: 1px;*/
 }
 
 .info-about-author__biography-block {
@@ -602,9 +601,6 @@ input[type="radio"].visually-hidden {
 
     display: block;
 
-    
-
-    /*filter: grayscale(100%) invert(100%) opacity(30%) brightness(300%);*/
     filter: saturate(0) opacity(20%) invert(100%) brightness(150%);
 }
 
@@ -671,26 +667,6 @@ input[type="radio"].visually-hidden {
     background-image: url("../assets/img/sprite_social_links.png");
     background-position: -0 -96px;
 }
-
-/*.info-about-author__social-links a::before {
-    position: absolute;
-
-    width: 100%;
-    height: 100%;
-
-    content: "";
-} */
-
-/*.info-about-author__social-links a::after {
-    position: absolute;
-
-    width: 100%;
-    height: 100%;
-
-    content: "";
-
-    background-color: rgba(0, 0, 0, 0.4);
-}*/
 
 .info-about-author::before {
     position: absolute;
@@ -763,9 +739,8 @@ input[type="radio"].visually-hidden {
     box-sizing: border-box;
     width: 100%;
     margin-top: 16px;
-    padding: 12px 13px 13px;
+    padding: 12px 14px 13px;
 
-    opacity: 1;
     color: #eeeeee;
     border: none;
     background-color: #454545;
@@ -773,6 +748,55 @@ input[type="radio"].visually-hidden {
 
 .contact-form textarea {
     padding-bottom: 9px;
+    height: 150px;
+}
+
+.contact-form input::-webkit-input-placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    color: #bebebe;
+}
+
+.contact-form input::-moz-placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    color: #bebebe;
+}
+
+.contact-form input:-moz-placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    color: #bebebe;
+}
+
+.contact-form input:-ms-input-placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    color: #bebebe;
+}
+
+.contact-form textarea::-webkit-input-placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    color: #bebebe;
+}
+
+.contact-form textarea::-moz-placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    color: #bebebe;
+}
+
+.contact-form textarea:-moz-placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    color: #bebebe;
+}
+
+.contact-form textarea:-ms-input-placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    color: #bebebe;
 }
 
 .contact-form h2 {
@@ -791,12 +815,11 @@ input[type="radio"].visually-hidden {
     margin-left: 1px;
 
     color: #bebebe;
-    /*	margin-top: -2px;
-	margin-bottom: 2px;*/
+    margin-top: -1px;
 }
 
 .contact-form .contact-form__user-name {
-    margin-top: 18px;
+    margin-top: 19px;
 }
 
 .contact-form__submit-button {
@@ -808,7 +831,7 @@ input[type="radio"].visually-hidden {
     max-width: 150px;
     margin-top: 16px;
     margin-left: auto;
-    padding: 10px 28px 12px;
+    padding: 12px 28px;
 
     text-transform: uppercase;
 
@@ -833,18 +856,19 @@ input[type="radio"].visually-hidden {
     font-family: "Lato", Arial, sans-serif;
     font-size: 12px;
     font-weight: 400;
-    line-height: 21.56px;
+    line-height: 21.6px;
 
     margin-top: 67px;
 
     text-align: justify;
 
     color: #bebebe;
+    word-wrap: break-word;
 }
 
 .contacts-block strong {
     font-weight: 900;
-
+     font-size: 11px;
     color: #e0e0e0;
 }
 
@@ -853,15 +877,17 @@ input[type="radio"].visually-hidden {
 }
 
 .contacts-block__contacts-list {
+    font-weight: 400;
+
+    position: relative;
+
     margin: 0;
     padding: 0;
     padding-left: 23px;
 
     list-style: none;
-}
-
-.contacts-block__contacts-list {
-    position: relative;
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 12px;
 }
 
 .contacts-block__contacts-list li::before {
@@ -893,13 +919,17 @@ input[type="radio"].visually-hidden {
 }
 
 .contacts-block__contacts-list li:nth-child(3)::before {
-    bottom: 0;
+    bottom: 1px;
     left: -1px;
 
     width: 18px;
     height: 13px;
 
     background-image: url("../assets/img/mail.png");
+}
+
+.contacts-block__contacts-list li:nth-child(3) {
+    margin-top: 1px;
 }
 
 .page-footer .page-footer__copyright-link {
@@ -909,7 +939,7 @@ input[type="radio"].visually-hidden {
 
     box-sizing: border-box;
     width: 100%;
-    padding: 16px 39px 10px;
+    padding: 15px 39px 11px;
 
     color: #454545;
     background-color: #222222;
