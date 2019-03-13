@@ -383,7 +383,6 @@ input[type="radio"].visually-hidden {
 .slide5,
 .slide6 {
     height: 100%;
-
     align-items: center;
 }
 
@@ -401,6 +400,16 @@ input[type="radio"].visually-hidden {
 .slide2__row svg:nth-child(2n):hover {
     transition: all 0.2s ease-out;
     transform: translateY(50%);
+}
+
+.slide__image {
+    transition: all 0.2s ease-out;
+}
+
+.slide__image:hover {
+    transform: scale(1.2);
+    transition: all 0.2s ease-out;
+    transform-origin: center;
 }
 
 .slider__radio-control_hidden,
