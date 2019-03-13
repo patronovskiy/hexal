@@ -498,6 +498,10 @@ input[type="radio"].visually-hidden {
 }
 
 /* 6. info-about-author */
+.container {
+    max-width: 1020px;
+    margin: 0 auto;
+}
 
 .info-about-author {
     position: relative;
