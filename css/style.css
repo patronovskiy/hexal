@@ -383,6 +383,7 @@ input[type="radio"].visually-hidden {
 .slide5,
 .slide6 {
     height: 100%;
+
     align-items: center;
 }
 
@@ -407,8 +408,8 @@ input[type="radio"].visually-hidden {
 }
 
 .slide__image:hover {
-    transform: scale(1.2);
     transition: all 0.2s ease-out;
+    transform: scale(1.2);
     transform-origin: center;
 }
 
@@ -606,6 +607,7 @@ input[type="radio"].visually-hidden {
     padding: 0;
 
     list-style: none;
+
     background-color: rgba(255, 255, 255, 0.25);
 }
 
@@ -760,55 +762,63 @@ input[type="radio"].visually-hidden {
 }
 
 .contact-form textarea {
-    padding-bottom: 9px;
     height: 150px;
+    padding-bottom: 9px;
 }
 
 .contact-form input::-webkit-input-placeholder {
     font-size: 12px;
     font-weight: 400;
+
     color: #bebebe;
 }
 
 .contact-form input::-moz-placeholder {
     font-size: 12px;
     font-weight: 400;
+
     color: #bebebe;
 }
 
 .contact-form input:-moz-placeholder {
     font-size: 12px;
     font-weight: 400;
+
     color: #bebebe;
 }
 
 .contact-form input:-ms-input-placeholder {
     font-size: 12px;
     font-weight: 400;
+
     color: #bebebe;
 }
 
 .contact-form textarea::-webkit-input-placeholder {
     font-size: 12px;
     font-weight: 400;
+
     color: #bebebe;
 }
 
 .contact-form textarea::-moz-placeholder {
     font-size: 12px;
     font-weight: 400;
+
     color: #bebebe;
 }
 
 .contact-form textarea:-moz-placeholder {
     font-size: 12px;
     font-weight: 400;
+
     color: #bebebe;
 }
 
 .contact-form textarea:-ms-input-placeholder {
     font-size: 12px;
     font-weight: 400;
+
     color: #bebebe;
 }
 
@@ -825,10 +835,10 @@ input[type="radio"].visually-hidden {
     font-size: 18px;
     font-weight: 400;
 
+    margin-top: -1px;
     margin-left: 1px;
 
     color: #bebebe;
-    margin-top: -1px;
 }
 
 .contact-form .contact-form__user-name {
@@ -874,14 +884,15 @@ input[type="radio"].visually-hidden {
     margin-top: 67px;
 
     text-align: justify;
+    word-wrap: break-word;
 
     color: #bebebe;
-    word-wrap: break-word;
 }
 
 .contacts-block strong {
+    font-size: 11px;
     font-weight: 900;
-     font-size: 11px;
+
     color: #e0e0e0;
 }
 
@@ -890,6 +901,8 @@ input[type="radio"].visually-hidden {
 }
 
 .contacts-block__contacts-list {
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 12px;
     font-weight: 400;
 
     position: relative;
@@ -899,8 +912,6 @@ input[type="radio"].visually-hidden {
     padding-left: 23px;
 
     list-style: none;
-    font-family: "Lato", Arial, sans-serif;
-    font-size: 12px;
 }
 
 .contacts-block__contacts-list li::before {
